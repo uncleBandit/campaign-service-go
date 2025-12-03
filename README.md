@@ -23,12 +23,12 @@ Configure environment variables in a .env file:
 .env
 Copy code
 DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=postgres
+DB_PORT=5433
 DB_NAME=smsleopard
+DB_USER=smsleopard
+DB_PASSWORD=secret
 QUEUE_URL=amqp://guest:guest@localhost:5672/
-Run database migrations / seed sample data (10 customers, 2-3 campaigns).
+Run database migrations / seed sample data (5 customers, 2-3 campaigns).
 
 Start the service:
 
