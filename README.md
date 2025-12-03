@@ -28,7 +28,10 @@ DB_NAME=smsleopard
 DB_USER=smsleopard
 DB_PASSWORD=secret
 QUEUE_URL=amqp://guest:guest@localhost:5672/
-Run database migrations / seed sample data (5 customers, 2-3 campaigns).
+Run database migrations / seed sample data (10 customers, 2-3 campaigns).
+export $(grep -v '^#' .env | xargs)
+go run ./cmd/seeder
+
 
 Start the service:
 
