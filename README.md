@@ -33,13 +33,13 @@ Run database migrations / seed sample data (5 customers, 2-3 campaigns).
 Start the service:
 
 bash
-Copy code
+
 go run ./cmd/server
 The API will be available at http://localhost:8080.
 
 Running Tests
 bash
-Copy code
+
 go test ./...
 This runs all unit and integration tests, including template rendering, campaign sending, and in-memory queue processing.
 
