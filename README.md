@@ -36,7 +36,7 @@ go run ./cmd/seeder
 Start the service:
 
 bash
-
+docker compose up -d
 go run ./cmd/server
 The API will be available at http://localhost:8080.
 
